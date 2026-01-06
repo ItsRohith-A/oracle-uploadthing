@@ -2,8 +2,8 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'Oracle Upload Thing',
-  description: 'Private file storage powered by Oracle Cloud',
+  title: 'Orac Upload Thing',
+  description: 'Private file storage powered by Ora Cloud',
   icons: {
     icon: '/icon.svg',
     apple: '/icon.svg',

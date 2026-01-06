@@ -58,7 +58,7 @@ function LoginForm() {
             />
           </svg>
         </div>
-        <h1 className="text-2xl font-bold text-gray-900">Oracle Upload Thing</h1>
+        <h1 className="text-2xl font-bold text-gray-900">Orac Store</h1>
         <p className="text-gray-500 mt-1">Sign in to your account</p>
       </div>
 
@@ -136,7 +136,7 @@ function LoginForm() {
 
       {/* Footer */}
       <p className="text-center text-sm text-gray-400 mt-6">
-        Powered by Oracle Cloud Infrastructure
+        Powered by google
       </p>
     </div>
   );
@@ -155,7 +155,7 @@ function LoginFallback() {
             <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z" />
           </svg>
         </div>
-        <h1 className="text-2xl font-bold text-gray-900">Oracle Upload Thing</h1>
+        <h1 className="text-2xl font-bold text-gray-900">Orac Upload Thing</h1>
         <p className="text-gray-500 mt-1">Loading...</p>
       </div>
     </div>

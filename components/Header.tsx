@@ -50,7 +50,7 @@ export default function Header() {
                 />
               </svg>
             </div>
-            <span className="text-lg font-semibold text-gray-900">Oracle Upload Thing</span>
+            <span className="text-lg font-semibold text-gray-900">Orac Upload Thing</span>
           </a>
 
           {/* Profile Menu */}

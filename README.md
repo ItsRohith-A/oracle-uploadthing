@@ -52,29 +52,29 @@ npm run dev
 
 ### Authentication
 
-| Variable | Description | Example |
-|----------|-------------|---------|
-| `BASIC_AUTH_USER` | Username for UI Basic Auth | `admin` |
-| `BASIC_AUTH_PASS` | Password for UI Basic Auth | `secure-password` |
-| `API_TOKEN` | Bearer token for API uploads | `your-api-token` |
+| Variable          | Description                  | Example           |
+| ----------------- | ---------------------------- | ----------------- |
+| `BASIC_AUTH_USER` | Username for UI Basic Auth   | `admin`           |
+| `BASIC_AUTH_PASS` | Password for UI Basic Auth   | `secure-password` |
+| `API_TOKEN`       | Bearer token for API uploads | `your-api-token`  |
 
 ### OCI Configuration
 
-| Variable | Description | Example |
-|----------|-------------|---------|
-| `OCI_REGION` | OCI region identifier | `us-ashburn-1` |
-| `OCI_BUCKET_NAME` | Object Storage bucket name | `my-files` |
-| `OCI_NAMESPACE` | OCI tenancy namespace | `my-namespace` |
-| `OCI_AUTH_TYPE` | Authentication method | `env_vars` |
+| Variable          | Description                | Example        |
+| ----------------- | -------------------------- | -------------- |
+| `OCI_REGION`      | OCI region identifier      | `ap-mumbai-1`  |
+| `OCI_BUCKET_NAME` | Object Storage bucket name | `my-bucket`    |
+| `OCI_NAMESPACE`   | OCI tenancy namespace      | `bmrdn42xcnze` |
 
-### OCI Authentication (for `env_vars` auth type)
+### OCI Authentication
 
-| Variable | Description |
-|----------|-------------|
-| `OCI_TENANCY_OCID` | Your tenancy OCID |
-| `OCI_USER_OCID` | Your user OCID |
-| `OCI_FINGERPRINT` | API key fingerprint |
-| `OCI_PRIVATE_KEY` | Private key content (PEM format) |
+| Variable               | Description                                      |
+| ---------------------- | ------------------------------------------------ |
+| `OCI_TENANCY_OCID`     | Your tenancy OCID                                |
+| `OCI_USER_OCID`        | Your user OCID                                   |
+| `OCI_FINGERPRINT`      | API key fingerprint                              |
+| `OCI_PRIVATE_KEY`      | Private key content (PEM format) - for Vercel    |
+| `OCI_PRIVATE_KEY_PATH` | Path to private key file - for local development |
 
 ## Deployment on Vercel
 
